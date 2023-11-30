@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.jsrk.mapper.StudentInfoMapper">
-    <resultMap id="studentMap" type="com.jsrk.domain.vo.StudentInfo">
+<mapper namespace="com.tencent.wxcloudrun.mapper.StudentInfoMapper">
+    <resultMap id="studentMap" type="com.tencent.wxcloudrun.domain.vo.StudentInfo">
         <result column="id" property="id"/>
         <result column="name" property="name"/>
         <result column="sex" property="sex"/>
